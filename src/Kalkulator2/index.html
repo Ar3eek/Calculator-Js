@@ -1,0 +1,44 @@
+
+<load src="template-partials/header.html" script="../app.js"/>
+
+
+
+<body class="h-[100vh]  relative flex items-center justify-center ">
+    <section id="container" class="w-[100%] h-[480px] max-w-[300px] px-[20px] pt-[20px]  box-border bg-gray-300 rounded-[15px] shadow-2xl">
+           <div id="display" class="h-[120px] w-[100%] mb-[20px] outline-none  rounded-[10px] bg-gray-200 opacity-[90%] text-[20px] text-right px-[7px]  flex flex-col overflow-y-auto " >
+               <div id="secondNumber" class="text-[1.2rem] leading-7 pt-[20px]  " >
+                   <p></p>
+                   <span id="mathSign" class="text-[20px]"></span>
+               </div>
+               <p id="firstNumber" class="text-[2.1rem] "></p>
+           </div>
+        <article id="buttons" class="grid gap-[10px] grid-cols-4   ">
+            <button id="clear" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-400 "  value="AC">AC</button>
+            <button id="clearLast" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-400 "  value="DEL">DEL</button>
+            <button id="operator" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-400 "  value="%">%</button>
+            <button id="operator" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-amber-500  "  value="/">/</button>
+                                                                                      
+            <button id="number" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="7">7</button>
+            <button id="number" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="8">8</button>
+            <button id="number" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="9">9</button>
+            <button id="operator" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-amber-500  "  value="*">*</button>
+
+            <button id="number"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="4">4</button>
+            <button id="number"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="5">5</button>
+            <button id="number"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="6">6</button>
+            <button id="operator"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-amber-500  "  value="-">-</button>
+
+            <button id="number"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="1">1</button>
+            <button id="number"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="2">2</button>
+            <button id="number"  class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="3">3</button>
+            <button id="operator" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-amber-500  "  value="+">+</button>
+
+            <button id="number" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="0">0</button>
+            <button id="number" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value="00">00</button>
+            <button id="number" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-gray-200  "  value=".">.</button>
+            <button id="equals" class="p-[10px] rounded-[6px]  text-[20px] cursor-pointer border-[1px] border-black bg-amber-500  "  value="=">=</button>
+        </article>
+    </section>
+
+</body>
+
